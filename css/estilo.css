@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone+Bounce:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+    background-image: url(/img/f.elconfidencial.com_original_152_6b0_eff_1526b0eff12fad54065976f56c5b9e18.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 700px;
+}
+
+div {
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: rgb(19, 17, 17);
+    text-align: center;
+}
+
+nav {
+    height: 5%;
+}
+
+nav a, footer a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin: 10px 30px;
+    padding: 5px 15px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+nav a:hover, footer a:hover{
+    background-color: #696969;
+    color: #f2f2f2;
+}
+
+footer {
+    background-color: brown;
+}
+
+section {
+    height: 500px;
+    text-align: center;
+    padding: 100px;
+}
